@@ -46,6 +46,7 @@ namespace Fibonacci
 
 			app.UseHttpsRedirection();
 			app.UseMvc();
+			app.UseFileServer();
 		}
 	}
 }
